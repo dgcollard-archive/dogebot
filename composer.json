@@ -1,0 +1,29 @@
+{
+    "name": "dgcollard/dogebot",
+    "description": "wow such doge",
+    "require": {
+        "silex/silex": "dev-master",
+        "monolog/monolog": "^1.13",
+        "guzzlehttp/guzzle": "^5.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Collard",
+            "email": "dgcollard@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dgcollard\\Dogebot\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dgcollard\\Dogebot\\Test\\": "test/"
+        }
+    }
+}
